@@ -7,6 +7,7 @@ gem 'rails', '4.0.0.rc2'
 group :production do
 	gem 'pg'
 end
+
 group :deveopment, :test do
 	gem 'sqlite3'
 end
@@ -37,14 +38,3 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
